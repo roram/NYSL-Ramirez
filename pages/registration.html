@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- MAXIMO 2 FUENTES -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+	<link rel='icon' href='../assets/icon/favicon.ico' type='image/x-icon'/>
+	<title>Registration Form - NYSL</title>
+	<link rel="stylesheet" href="../styles/styleRegister.css">
+</head>
+
+<!-- TENES QUE ARREGLAR LOS INPUT RADIO
+
+	PARA EL MAPA DEL COLEGIO QUE ESTÁ EN EL SUR USA ESTE LINK
+
+	https://www.google.com/maps?ll=42.317067,-87.854593&z=11&t=m&hl=es&gl=AR&mapclient=embed&cid=10153522112144064193
+
+-->
+
+<body>
+	<section>
+		<form action="">
+			<div class="basicInfo">
+				<h1>Registration Form</h1>
+				<div>
+					<div>
+						<label for="name">Player's First Name:</label>
+						<input type="text" name="name" id="name">
+					</div>
+					<div>
+						<label for="lName">Last Name:</label>
+						<input type="text" name="lName" id="lName">
+					</div>
+				</div>
+				<label for="address">Street Address:</label>
+				<input type="text" name="address" id="address">
+				<div>
+					<div>
+						<label for="city">City:</label>
+						<input type="text" name="city" id="city">
+					</div>
+					<div>
+						<label for="zip">Zip Code:</label>
+						<input type="number" name="zip" id="zip">
+					</div>
+				</div>
+				<div class="dateGender">
+					<div>
+						<label for="bDate">Birth Date(dd/mm/yyyy)</label>
+						<input type="date" name="bDate" id="bDate">
+					</div>
+					<div>
+						<label for="gender">Gender:</label>
+						Female<input type="radio" name="gender" id="genderF" value="F">
+						Male<input type="radio" name="gender" id="genderF" value="M">
+					</div>
+				</div>
+				<div class="grado">
+					<div>
+						<label for="grade">Grade:</label>
+						<input type="radio" name="grade" id="gradePre" value="pre">Pre-School
+						<input type="radio" name="grade" id="grade1" value="1"><sup>1st</sup> 
+						<input type="radio" name="grade" id="grade2" value="2"><sup>2st</sup>
+						<input type="radio" name="grade" id="grade3" value="3"><sup>3st</sup>
+						<input type="radio" name="grade" id="grade4" value="4"><sup>4st</sup>
+						<input type="radio" name="grade" id="grade5" value="5"><sup>5st</sup>
+					</div>
+				</div>
+			</div>
+			<div>
+				<h3>Which elementary school do you live near?</h3>
+				<p>Closest School:</p>
+				<div class="closesS">
+					<div>
+						<div>
+							<input type="checkbox" name="ajKatz" id="ajKatz" value="katz">
+							<label for="ajKatz">AJ Katzenmaier</label>
+						</div>
+						<div>
+							<input type="checkbox" name="marj" id="marj" value="marj">
+							<label for="marj">Marjorie P Hart</label>
+						</div>
+					</div>
+					<div>
+						<div>
+							<input type="checkbox" name="green" id="green" value="green">
+							<label for="green">Greenbay</label>
+						</div>
+						<div>
+							<input type="checkbox" name="nEle" id="nEle" value="nEle">
+							<label for="nEle">North Elementary</label>
+						</div>
+					</div>
+					<div>
+						<div>
+							<input type="checkbox" name="howard" id="howard" value="howard">
+							<label for="howard">Howard A Yeager</label>
+						</div>
+						<div>
+							<input type="checkbox" name="sEle" id="sEle" value="sEle">
+							<label for="sEle">South Elementary</label>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="position">
+				<h3>What position(s) do you normally play? (check all that apply)</h3>
+				<div>
+					<div>
+						<input type="checkbox" name="forw" id="forw" value="forw">
+						<label for="forw">Forward</label>
+					</div>
+					<div>
+						<input type="checkbox" name="mid" id="mid" value="mid">
+						<label for="mid">Midfield</label>
+					</div>
+				</div>
+				<div>
+					<div>
+						<input type="checkbox" name="def" id="def" value="def">
+						<label for="def">Defense</label>
+					</div>
+					<div>
+						<input type="checkbox" name="goalk" id="goalk" value="goalk">
+						<label for="goalk">Goalkeeper</label>
+					</div>
+				</div>
+			</div>
+			<div class="uniform">
+				<h3>Uniform Size:</h3>
+				<div>
+					<div>
+						<input type="radio" name="uniform" id="ySmal" value="ySmal">Youth Smal
+					</div>
+					<div>
+						<input type="radio" name="uniform" id="med" value="med">Medium
+					</div>
+				</div>
+				<div>
+					<div>
+						<input type="radio" name="uniform" id="yMel" value="yMel">Youth Medium
+					</div>
+					<div>
+						<input type="radio" name="uniform" id="lrg" value="lrg">Large
+					</div>
+				</div>
+				<div>
+					<div>
+						<input type="radio" name="uniform" id="yLarge" value="yLarge">Youth Smal
+					</div>
+					<div>
+						<input type="radio" name="uniform" id="eLarge" value="eLarge">Extra-Large
+					</div>
+				</div>
+				<input type="radio" name="uniform" id="smal" value="smal">Smal
+			</div>
+			<div class="permission">
+				<h3>Permission to Play</h3>
+				<p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Northside Youth Soccer League (NYSL). In recognizing the possibility of physical injury associated with soccer and in consideration for the “League” accepting the registrant for its soccer programs and activities, I hereby release, discharge, and/or otherwise indemnify NYSL, their employees and associated personnel and volunteers,including the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant’s participation in the programand/orbeing transported to or from NYSL sponsored activities,which transportation</p>
+				<p>By signing below, I herebyagree andauthorizethe above.In addition, by signing below, Ialso acknowledge that I have read the cancellation policy and agree to its terms.</p>
+				<div>
+					<div>
+						<label for="parent">Parent/Guardian Signature:</label>
+						<input type="text" name="parent" id="parent">
+					</div>
+					<div>
+						<label for="dateS">Date (dd/mm/yyyy):</label>
+						<input type="date" name="dateS" id="dateS">
+					</div>
+				</div>
+			</div>
+		</form>
+	</section>
+</body>
+
+</html>

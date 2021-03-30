@@ -1,0 +1,313 @@
+/* NORMALIZADOR */
+
+html *{
+	margin: 0;
+	padding: 0;
+   box-sizing: border-box;
+   font-family: 'Mali', cursive;
+}
+
+/*****************/
+/* ESTILO INDEX */
+
+header h1
+{
+   font-style: italic;
+   padding: 0 0 6vh 3vw;
+   font-size: 10vh;
+}
+
+nav
+{
+   display: flex;
+   align-items: flex-start;
+   justify-content: flex-end;
+   margin: 0vh 3vw 0 0;
+   
+}
+
+nav a
+{
+   
+   background-color: #085394;
+   text-decoration: none;
+   color: white;
+   margin: -3vh 3vw 0 0;
+   padding:1vh 1vw;
+   border-color:black;
+   border-style: solid;
+   border-width: 2px;
+   box-shadow: .3vw .5vh black;
+   
+}
+
+.actual
+{
+   background-color:#6aa84f;
+   
+}
+
+
+header .fondo
+{
+
+   height: 40vh;
+   padding: 10vh 0 10bh 0;
+   background-image:url("../assets/images/design2_image1.jpg");
+   background-repeat: no-repeat;
+   background-size:cover;
+   background-position: bottom;
+}
+
+header .titulo, .fondo
+{
+   align-self:stretch;
+}
+
+.titulo h2
+{
+   text-align: center;
+   font-size: 35px;
+   padding:0 0 1vh 0;
+   border-color:black;
+   border-style: solid;
+   border-width: 2px;
+}
+
+/* seccion anuncios */
+
+.contenidoLogo
+{
+   padding:3vh 0 0  0;
+   display:flex;
+}
+
+.contenidoLogo img
+{
+   max-width: 15vw;
+   max-height: 15vh;
+   margin: 0 0 0 1vw;
+}
+
+.contenidoLogo ul
+{
+   margin: 0 0 0 5vw;
+   list-style-type: none;
+}
+
+ul li h3
+{
+   padding:0 0 5vh 0;
+   margin: 0 0 0 1vw;
+}
+
+/*****************/
+/* ESTILO ABOUT */
+
+.entradaTexto
+{
+   padding:0 0 4vh 0;
+   margin:0 10vw 0 2vw;
+}
+
+.contenidoLogo div
+{
+   margin:0 0 0 2.4vw;
+}
+
+/******************/
+/* ESTILO CONTACT */
+
+.contenidoLogo .contacto
+{
+   margin: 0 0 0 6vw;
+}
+
+div .info
+{
+   padding:0 0 3vh 0;
+}
+
+.info a
+{
+   color:#085394;
+   
+}
+
+/********************/
+/* ESTILO GAME RULES */
+
+/* Contenedor exterior */
+
+.gameRules
+{
+   padding:0 12vw 0 0;
+   font-size:2vh;  
+}
+
+/* Titulos text */
+
+.gameRules h2, .gameRules h4
+{
+   text-align: center;
+}
+
+.gameRules h4
+{
+   padding:3vh 0 3vh 0;
+}
+
+/* Estilos etiqueta */
+.fairnessPlay ul li
+{
+   padding:2vh 0 4vh 0;
+   list-style-type: square;
+}
+
+/* Estilos Fifa Rules */
+
+.fifaRules p
+{
+   display: inline;
+}
+
+.fifaRules>h3
+{
+   padding:0 0 3vh 0;
+   
+}
+
+.fifaRules ol li h3
+{
+   display: inline;
+   margin: 0 0 0 .4vh;
+   
+}
+.fifaRules ol li
+{
+   padding:0 0 3vh 0;
+   margin:0 0 0 4.5vw;
+}
+
+.youngRules ol li
+{
+   padding: 0;
+}
+
+.youngRules ol li p
+{
+   margin: 0 0 0 0.3vw;
+}
+
+/* Time Play */
+
+.timePlay h3
+{
+   padding:0 0 2vh 0;
+}
+
+.excPlayTime li 
+{
+   list-style-type: square;
+}
+
+.excPlayTime li ul li
+{
+   list-style-type: circle;
+   padding: 1vh 0 4vh 0;
+}
+
+/********************/
+/* ESTILO GAME INFO */
+
+.gameTable h3
+{
+   font-style: italic;
+}
+.gameTable h3:nth-child(2)
+{
+   text-decoration: underline;
+   padding:0 0 3vh 0;
+}
+
+/* Estilo de la tabla */
+
+
+.gameTable 
+{
+   width: 80%;
+   display:flex;
+   flex-direction: column;
+   
+}
+
+/* table
+{
+   width: 100%;
+} */
+
+
+table, th, td
+{
+   /* padding:0 0 0 0; */
+   align-self: center;
+   border: 1px solid black;
+   text-align: center;
+   font-size: 3vh;
+}
+
+td
+{
+   width: 20vw;
+   height: 40vh;
+}
+
+/* .gameTable table td
+{
+   padding:1vh 4vw 1vh 4vw;
+   text-align: center
+} */
+
+/* texto inferior */
+
+.gameTable p
+{
+   padding:1vh 0 1vh 0;
+}
+
+.gameTable p span
+{
+   
+   font-weight:bold;
+}
+
+div.coachContact
+{
+   margin:0;
+   padding:0;
+   display:flex;
+   flex-wrap: wrap;
+}
+
+.coachContact>p
+{
+   padding: 4vh 0 0 0;
+   width: 100%;
+}
+
+.coachContact>div
+{
+   padding: 0 0 4vh 0;
+   width:100%;
+   margin:0;
+   display:flex;
+   justify-content: space-between;
+}
+
+/* ESTILOS MAPAS */
+
+iframe
+{
+   width: 100%;
+   height: 100%;
+}

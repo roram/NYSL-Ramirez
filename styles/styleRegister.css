@@ -1,0 +1,156 @@
+/* NORMALIZADOR */
+
+html *{
+	margin: 0;
+	padding: 0;
+	font-size:2.7vh;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+/********************/
+/* REGISTRO ESTILO */
+
+/* ESTILOS GENERICOS DEL REGISTRO */
+
+section
+{
+	padding:0 20vw 0 20vw;
+}
+
+section div
+{
+	padding:1vh 0 1vh 0;
+}
+
+input[type=text]
+{
+	border:none;
+	border-bottom: 1px solid black;
+}
+
+sup
+{
+	vertical-align: super;
+  	font-size: 1.5vh;
+}
+
+div div input
+{
+	margin: 0 0.5vw 0 0;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+	border:none;
+	border-bottom: 1px solid black;
+  -moz-appearance: textfield;
+}
+
+/* Info Básica */
+.basicInfo h1
+{
+	padding:6vh 0 3vh 0;
+	font-size:10vh;
+	text-align: center;
+}
+
+.basicInfo div
+{
+	display:flex;
+	justify-content: space-between;
+}
+
+.dateGender div label
+{
+	margin: 0 0.5vw 0 0;
+}
+
+.dateGender div input
+{
+	margin: 0 1vw 0 0.2vw;
+}
+
+.grado div input:nth-child(2)
+{
+	border-radius:10px;
+	margin:0 0 0 0.3vw;
+}
+
+.grado div input
+{
+	margin: 0 0 0 2vw;
+}
+
+/* Closest School */
+
+section div:nth-child(2) h3
+{
+	padding: 0 0 3vh 0;
+}
+
+.closesS div
+{
+	display:flex;
+	justify-content: space-between;
+}
+
+.closesS div div:last-child
+{
+	margin:0 20vw 0 0;
+}
+
+/* What position play */
+
+.position div
+{
+	display: flex;
+	justify-content:space-between;
+}
+.position div div:last-child
+{
+	margin: 0 20vw 0 0;
+}
+
+/* UNIFORM SIZE */
+.uniform div
+{
+	display:flex;
+	justify-content:space-between;
+}
+.uniform div div:last-child
+{
+	margin: 0 20vw 0 0;
+}
+.uniform input
+{
+	margin: 0 0.5vw 0 0;
+}
+/* PARENT PERMISION */
+
+.permission
+{
+	display:flex;
+	flex-flow:column;
+}
+
+.permission div
+{
+	display: flex;
+	justify-content:space-between;
+}
+
+.permission h3
+{
+	padding:2vh 0 0 0;
+}
+.permission p
+{
+	padding:2vh 0 0 0;
+}
